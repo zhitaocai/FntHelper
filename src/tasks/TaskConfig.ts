@@ -5,9 +5,9 @@ export class TaskConfig {
     fntFilePath: string = "";
 
     /**
-     * 偏移量Y
+     * 需要增加的 yoffset
      */
-    offsetY: number = 0;
+    yOffset: number = 0;
 
     constructor() {
         // console.log("当前执行文件所在目录路径", __dirname);
@@ -34,8 +34,8 @@ export class TaskConfig {
                     this.fntFilePath = paramValue;
                     break;
                 }
-                case "offsetY": {
-                    this.offsetY = Number.parseInt(paramValue);
+                case "yoffset": {
+                    this.yOffset = Number.parseInt(paramValue);
                     break;
                 }
             }

@@ -31,7 +31,7 @@ export class FntFixedTasks implements TaskInterface {
 
             // 计算 xxx 的新值
             let curYOffset: number = Number.parseInt(curYOffsetFormula.split("=")[1]);
-            let newYOffset: number = curYOffset + taskConfig.offsetY;
+            let newYOffset: number = curYOffset + taskConfig.yOffset;
             let newYOffsetFormula = "yoffset=" + newYOffset;
 
             // 写回到该行

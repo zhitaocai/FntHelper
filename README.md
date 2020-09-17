@@ -7,7 +7,7 @@
 ## 使用方法
 
 ```
-npm run build "path=/Users/caizhitao/Desktop/s1_bmfont_guanine.fnt;offsetY=30"
+npm run build "path=/Users/caizhitao/Desktop/s1_bmfont_guanine.fnt;yoffset=30"
 ```
 
 参数格式:
@@ -16,8 +16,8 @@ npm run build "path=/Users/caizhitao/Desktop/s1_bmfont_guanine.fnt;offsetY=30"
 
 参数说明：
 
-* ``path``: .fnt 文件路径
-* ``offsetY``: .fnt 文件中 yoffset 的值会加上这个值（可用于解决字体偏移问题）
+* ``path``: **.fnt** 文件路径
+* ``yoffset``: **.fnt** 文件中 yoffset 的值会加上这个值（可用于解决字体偏移问题）
 
 ## 支持一下作者吧
 
